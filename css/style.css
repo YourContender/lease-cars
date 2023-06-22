@@ -372,10 +372,6 @@ body {
     margin: 0 auto;
 }
 
-.blog {
-    padding-bottom: 150px;
-}
-
 .blog_items {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -406,7 +402,83 @@ body {
     padding: 13px;
     color: #fff;
     width: 225px;
-    margin: 0 auto;
+    margin: 100px auto;
     text-align: center;
     display: block;
+}
+
+.cars_title {
+    text-align: center;
+    padding-bottom: 70px;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.choose {
+    padding: 100px 0 150px;
+}
+
+.tabs_btn {
+    padding: 0 150px;
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+    padding-bottom: 100px;
+}
+
+.tabs_btn-item {
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.tabs_btn-item-active {
+    color: #0066FF;
+}
+
+.tabs_content-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px 40px;
+}
+
+.card {
+    text-align: center;
+}
+
+.card_content {
+    padding: 0 5px;
+    border: solid 1px #0066FF;
+    border-top: 0;
+}
+
+.card_img {
+    display: block;
+}
+
+.card_title {
+    padding-top: 20px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card_text {
+    margin-bottom: 20px;
+}
+
+.card_price {
+    margin: 20px 0;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.card_link {
+    color: #0066FF;
+    display: block;
+    border: solid 1px #0066FF;
+    border-top: 0;
 }
