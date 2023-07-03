@@ -14,6 +14,12 @@ function open(e) {
   target.classList.add('tabs_btn-item-active');
 }
 
+const menuBtn = document.querySelector('.menu_btn');
+const menu = document.querySelector('.menu_list');
+
+menuBtn.addEventListener('click', () => {
+  menu.classList.toggle('menu_list-active');
+})
  
 const swiper = new Swiper(".mySwiper", {
   effect: 'fade',
@@ -24,4 +30,4 @@ const swiper = new Swiper(".mySwiper", {
     delay: 2500,
     disableOnInteraction: false
   }
-});
+})
