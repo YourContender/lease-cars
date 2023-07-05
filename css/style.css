@@ -524,6 +524,10 @@ body {
         display: flex;
     }
 
+    .header_inner {
+        align-items: center;
+    }
+
     .menu_btn, .logo {
         position: relative;
         z-index: 10;
@@ -587,5 +591,78 @@ body {
 
     .video_content {
         height: 400px;
+    }
+}
+
+@media (max-width: 540px) {
+    .title {
+        font-size: 55px;
+    }
+
+    .top_link {
+        max-width: 310px;
+        font-size: 24px;
+    }
+
+    .swiper-pagination-bullet, 
+    .swiper-pagination-horizontal, 
+    .swiper-pagination-bullets {
+        margin: 0 10px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 35px;
+    }
+
+    .why-lease_list {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .why-lease {
+        padding: 50px 0;
+    }
+
+    .section-title {
+        font-size: 35px;
+    }
+
+    .how-does_list {
+        padding: 10px 0 0;
+    }
+
+    .how-does {
+        padding-bottom: 50px;
+    }
+
+    .how-does_item {
+        padding: 65px 0 19px 0;
+        margin-right: auto;
+    }
+
+    .how-does_item:before {
+        right: 0;
+        margin: 0 auto;
+        width: 50px;
+        height: 50px;
+        font-size: 32px;
+    }
+    
+    .video_content {
+        height: 250px;
+    }
+
+    .video {
+        padding-bottom: 50px;
+    }
+
+    .important_list {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .app,
+    .copy_nav-list {
+        flex-direction: column;
+        align-items: center;
     }
 }
